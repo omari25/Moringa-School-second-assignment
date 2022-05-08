@@ -19,4 +19,4 @@ omar.mahat@student.moringaschool.com
 ## Veiw Live
 https://github.com/omari25/Moringa-School-second-assignment
 ## License
-This is under [MIT](https://choosealicense.com/licenses/mit/)License
+This is under [MIT] (https://choosealicense.com/licenses/mit/)License
