@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins:ital,wght@0,200;0,500;1,100;1,400;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Actor', sans-serif;
+}
+body {
+    background-color: #f4f2ef;
+}
+
+.headSection {
+    width: 100%;
+    height: 45vh;
+    background-color: black;
+}
+
+.navdiv {
+    border-bottom:1px solid #333131;
+    height: 50%;
+    padding: 3vw 10vw;
+}
+
+.navdiv ul {
+    padding: 2vw 0;
+    display: flex;
+    align-items: center;
+    float: right;
+    color: white;
+}
+
+.navdiv ul li {
+    padding-left: 4vw;
+}
+
+.navdiv button {
+    background-color: #FFAC12;
+    color: black;
+    padding: 1vw 2vw;
+    border: none;
+    border-top-right-radius: 2vw;
+}
+
+.navdiv i {
+    margin-left: 1vw;
+    color: white;
+}
+
+.headerDiv {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 3vw 10vw;
+    align-items: center;
+}
+
+.logoname {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+.specification {
+    color: #5c5b5a;
+    font-size: 1.5vw;
+}
+
+.longest-div{
+    margin: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+.longest-div1{
+    width: 65%;
+}
+.longest-div1 .lone-img img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2vw;
+}
+.small-images {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.small-images img {
+    width: 12%;
+}
+
+.details {
+    border-radius: 2vw;
+}
+
+.detailsP {
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    margin-top: 2vw;
+    padding: 2vw;
+    font-size: 1.5vw;
+    background-color: #fff;
+}
+
+.details-icons {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+}
+.details-icons div {
+    width: 20%;
+    text-align: center;
+    border-top:  1px solid   #dbdad8;
+    padding: 1vw;
+    font-size: 1.2vw;
+
+}
+.details-icons div:nth-child(1) {
+    border-right: 1px solid #dbdad8;
+}
+
+.details-icons div:nth-child(2) {
+    border-right: 1px solid #dbdad8;
+}
+
+.details-icons div:nth-child(3) {
+    border-right: 1px solid #dbdad8;
+}
+
+.details-icons div:nth-child(4) {
+    border-right: 1px solid #dbdad8;
+}
+
+
+.details-icons {
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+
+.description {
+    background-color: #fff;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+
+.descrip-p{
+    font-size: 1.5vw;
+    padding: 2vw;
+    border-bottom: 1px solid #dbdad8;
+}
+
+.descrip-content {
+    padding: 2vw;
+    font-size: 1.2vw;
+}
+
+.features {
+    background-color: #fff;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+
+.features .features-p {
+    font-size: 1.5vw;
+    padding: 2vw;
+    border-bottom: 1px solid #dbdad8;
+}
+
+.features-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    font-size: 1.2vw;
+}
+
+.features-list1 li{
+    padding-top: 2vw;
+} 
+
+.features-list1 i{
+    color: #FFAC12;
+    margin-right: 1vw;
+}
+
+.longest-div2 {
+    background-color: white;
+    width: 30%;
+    height: max-content;
+    border-radius: 2vw;
+    padding: 1vw;
+
+}
+
+.overall {
+    padding: 1vw;
+}
+
+.overall div {
+    border: 1px solid #f4f2ed;
+    width: 100%;
+    padding: 1vw;
+    font-size: 1.2vw;
+}
+
+.div-one {
+    background-color: #f4f2ed;
+    margin-bottom: 1vw;
+    border-radius: .5vw;
+}
+.div-two {
+    margin-bottom: 1vw;
+    border-radius: .5vw;
+}
+.div-three {
+    margin-bottom: 1vw;
+    border-radius: .5vw;
+}
+.div-four {
+    margin-bottom: 1vw;
+    border-radius: .5vw;
+}
+
+.div-five {
+    height: 7vw;
+    margin-bottom: 1vw;
+    border-radius: .5vw;
+}
+
+.div-six {
+    background-color: black;
+    border-top-right-radius: 2vw;
+    color: white;
+    height: 5vw;
+    text-align: center;
+}
+
+.div-six i{
+    margin-left: 2vw;
+    color: #FAFF00;
+}
+
+
+.similar {
+    margin: 5vw 10vw;
+    width: auto;
+}
+
+.similar .gradient {
+    margin-bottom: 1vw;
+    width: 12vw;
+    height: .3vw;
+    background-image: linear-gradient(to right, #FFAC12, black) ;
+    border-radius: 2vw;
+}
+
+.similar .similarHeader {
+    font-size: 3vw;
+}
+
+.similarImages {
+    margin-top: 3vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.similarImg1 {
+    background-color: white;
+    width: 25vw;
+    border-radius: 4vh;
+    margin-right: 3vw;
+}   
+
+.similarImg1 img{
+    width: 24vw;
+    height: auto;
+}
+
+.img-caption{
+    font-size: 2vw;
+    padding: 1.5vw;
+}
+
+.similarIcons {
+    border-top: 1px solid #dbdad8;
+    display: flex;
+}
+
+.similarIcons p {
+    font-size: 1.5vw;
+    padding: 1.2vw;
+    text-align: center;
+}
+.similarIcons div{
+    min-width: 33.3%;
+}
+
+.similarIcons div:nth-child(1) {
+    border-right: 1px solid #dbdad8;
+}
+
+.similarIcons div:nth-child(3) {
+    border-left: 1px solid #dbdad8;
+}
+
+footer {
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    color: white;
+    padding: 0 10vw;
+    font-family: 'Actor', sans-serif;
+}
+
+span {
+    color: #FAFF00;
+    padding-left: 2vw;
+}
+
+.footer-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3vw;
+    padding: 6vw 0 4vw;
+    border-bottom: 1px solid #5c5b5a;
+}
+
+.bttn button {
+    
+    padding: 2vw 3vw;
+    border-top-right-radius: 2vw;
+    border: none;
+    background-color: #FFAC12;
+    color: black;
+    font-size: 2vw;
+}
+
+.bttn button .fa-solid{
+    text-align: center;
+    color: #fff;
+    margin-left: 2vw;
+}
+
+.footer-body {
+    padding: 4vw 0 7vw;
+    display: flex;
+}
+
+.footer-icons {
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+
+.footer-icons .fa-brands{
+    padding-right: 2vw;
+    font-size: 2vw;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.footer-list ul{
+    list-style: none;
+}
+
+.footer-list ul li{
+    color: #887f7f;
+    font-size: 1.2vw;
+    padding-bottom: 1rem;
+}
+.footer-list ul h5{
+    color: #fff;
+    font-size: 1.2vw;
+
+}
